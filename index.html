@@ -1,0 +1,956 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name='keywords' content='googledevelopers, googledeveloperstudentclub, szabist, szabistisb, webdevelopment, appdevelopment, community, learning, connecting, growing, google, gdsc, gdscszabist, gdscszabistisb, datascience, artificialintelligence, ai, machinelearning, design, cloudcomputing'>
+    <meta name='description' content='Google Developer Student Club SZABIST-ISB (GDSC SZABIST-ISB) is a community group for students interested in Google developer technologies.'>
+    <meta name='copyright' content='GDSC SZABIST-ISB'>
+    <meta name='revised' content='Friday, September 16th, 2022'>
+    <meta name='og:title' content='Google Developer Student Club SZABIST-ISB'>
+    <meta name='og:type' content='website'>
+    <meta name='og:url' content='http://www.gdscszabistisb.com'>
+    <meta name='og:site_name' content='GDSC SZABIST-ISB'>
+    <meta name='og:description' content='Community group for students interested in Google developer technologies.'>
+    <title>GDSC - SZABIST ISB | Powered by Google Developers</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="192x192" href="icons/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="icons/android-chrome-512x512.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
+  </head>
+  <body>
+    <nav class="nav collapsible">
+      <a
+        href="https://gdsc.community.dev/"
+        class="nav__brand__container"
+        target="_blank"
+        ><img
+          src="images/nav-logo.svg"
+          alt="GDSC SZABIST - ISB Logo"
+          class="nav__brand"
+      /></a>
+
+      <img src="icons/menu.svg" alt="Navbar Toggler" class="nav__toggler" />
+      <ul class="list nav__list collapsible__content">
+        <li class="nav__item"><a href="#aboutus">About Us</a></li>
+        <li class="nav__item"><a href="#technologies">Technologies</a></li>
+        <li class="nav__item">
+          <a href="#events"> Events & Workshops</a>
+        </li>
+        <li class="nav__item"><a href="#team">Team</a></li>
+        <li class="nav__item"><a href="#community">Community</a></li>
+        <li style="margin: 1.5rem 1rem 2rem 1rem ;">
+          <a href="https://gdsc.community.dev/shaheed-zulfikar-ali-bhutto-institute-of-science-and-technology-szabist-islamabad-campus/"        target="_blank"
+            class="button button--primary nav--btn"
+            >Join us!</a>
+        </li>
+        <li>
+          <div class="toggle__container">
+            <input type="checkbox" class="checkbox" id="checkbox">
+            <label for="checkbox" class="label">
+              <img src="../icons/moon.png" alt="moon icon" class="toggle__icon">
+              <img src="../icons/sun.png" alt="sun icon" class="toggle__icon">
+              <div class='ball'>
+            </label>
+          </div>
+        </li>
+      </ul>
+    </nav>
+    <section class="block hero content">
+      <div class="section flex--column-row">
+        <header class="block__header hero__content">
+          <div class="flex--column">
+            <img class="hero__logo" src="images/gdsc-logo.svg" alt="gdsc logo" />
+            <img
+              class="small__image uni-logo"
+              src="images/szabist-isb-logo.png"
+              alt="szabist isb logo"
+            />
+          </div>
+          <p class="hero__tagline">
+            Developer Student Clubs powered by
+            <span class="text--primary">G</span
+            ><span class="text--secondary">o</span
+            ><span class="text--accent-two">o</span
+            ><span class="text--primary">g</span
+            ><span class="text--accent">l</span
+            ><span class="text--secondary">e</span> Developers is an initiative
+            to grow their <span class="text--accent-two">knowledge</span> on
+            <span class="text--primary">developer technologies</span> and more
+            through
+            <span class="text--secondary"
+              >peer to peer workshops and events,</span
+            >
+            and gain relevant
+            <span class="text--accent">industry experience</span>.<br /><br />
+            <a
+              href="https://developers.google.com/community/gdsc"
+              class="link--primary hero--link"
+              target="_blank"
+              >Learn more about the Program</a
+            >
+          </p>
+          <a
+            href="https://gdsc.community.dev/shaheed-zulfikar-ali-bhutto-institute-of-science-and-technology-szabist-islamabad-campus/"
+            class="button button--primary button--link"
+            target="_blank"
+            >Become a Member</a
+          >
+        </header>
+        <img src="images/community-removebg.png" alt="community illustration" class="hero__image" />
+      </div>
+    </section>
+    <section class="block" id="aboutus">
+      <div class="section">
+        <header class="block__header banner primary--banner">
+          <h1 class="block__heading light--heading">About Us</h1>
+        </header>
+        <div class="block__body no-wrap">
+          <div class="card">
+            <div class="card__content">
+              <img src="icons/bulb-green.png" alt="bulb icon" class="icon" />
+              <h2 class="card__heading">Why DSC?</h2>
+              <p class="card__text">
+                For students to learn development skills, solve problems through
+                technology and inspire them to be world class developers and
+                changemakers.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__content">
+              <img src="icons/rocket-blue.png" alt="rocket icon" class="icon" />
+              <h2 class="card__heading">Concept of DSC</h2>
+              <p class="card__text">
+                The DSC program is a grassroots channel through which Google
+                provides development, mobile & web development skills for
+                students, towards employability.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__content">
+              <img src="icons/audience-red.png" alt="audience icon" class="icon" />
+              <h2 class="card__heading">Target audience</h2>
+              <p class="card__text">
+                DSC activities are targeted at University students and any
+                others including faculty members who want to learn development
+                skills & work to solve real-life problems.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="block" id="technologies">
+      <div class="section">
+        <header class="block__header banner secondary--banner">
+          <h1 class="block__heading light--heading">Technologies</h1>
+          <p class="text-set">
+            Opportunities to learn & access deep technical content.
+          </p>
+        </header>
+        <div class="block__body flex-row">
+          <img
+            src="images/app-development-illustration.jpg"
+            alt="app development illustration"
+            class="block__image"
+          />
+          <div class="block__body__main">
+            <h2 class="block__heading text-to-left">App Development</h2>
+            <p class="block__text text-to-left">
+              Every year google developers release exciting new updates to the
+              world's most popular operating system. We always have sessions to
+              keep you updated and mastering the latest trends in modern android
+              development.
+            </p>
+          </div>
+        </div>
+        <div class="block__body flex-row-reverse">
+          <img
+            src="images/web-development-illustration.png"
+            alt="web development illustration"
+            class="block__image"
+          />
+          <div class="block__body__main">
+            <h2 class="block__heading text-to-left">Web Development</h2>
+            <p class="block__text text-to-left">
+              Learn the core foundations of a delightful web experience both for
+              the user and developer. Stay up to tabs with emerging and trending
+              technologies. Get access to a guided, tutorial and hands-on coding
+              experience.
+            </p>
+          </div>
+        </div>
+        <div class="block__body flex-row">
+          <img
+            src="images/cyber-security-illustration.png"
+            alt="cyber security illustration"
+            class="block__image"
+          />
+          <div class="block__body__main">
+            <h2 class="block__heading text-to-left">Cyber Security</h2>
+            <p class="block__text text-to-left">
+              Data is valuable. With so much sensitive information online,
+              companies need cybersecurity pros to protect it. This course is a
+              great starting point for anyone interested in cybersecurity, but
+              not sure where to start. Build your foundation by learning the
+              fundamentals of one of the fastest-growing fields today.
+            </p>
+          </div>
+        </div>
+        <div class="block__body flex-row-reverse">
+          <img src="images/ml-illustration.png" alt="machine learning illustration" class="block__image" />
+          <div class="block__body__main">
+            <h2 class="block__heading text-to-left">Machine Learning</h2>
+            <p class="block__text text-to-left">
+              Learn how to drive user engagement and retention with intelligent
+              apps that are able to effectively serve users what they need
+              without the fuss by providing these systems with the ability to
+              utomatically learn and improve from experience without being
+              explicitly programmed.
+            </p>
+          </div>
+        </div>
+        <div class="block__body flex-row">
+          <img src="images/ai-illustration.png" alt="artificial intelligence illustration" class="block__image" />
+          <div class="block__body__main">
+            <h2 class="block__heading text-to-left">Artificial Intelligence</h2>
+            <p class="block__text text-to-left">
+              Help build the future with an exciting career in the fast-growing
+              field of artificial intelligence. Many industries like digital
+              marketing and social media experts are relying on deep learning
+              methods and AI algorithms to make business decisions and their
+              business applications better.
+            </p>
+          </div>
+        </div>
+        <div class="block__body flex-row-reverse">
+          <img
+            src="images/cloudcomputing-illustration.png"
+            alt="cloud computing illustration"
+            class="block__image"
+          />
+          <div class="block__body__main">
+            <h2 class="block__heading text-to-left">Cloud Computing</h2>
+            <p class="block__text text-to-left">
+              For passionate developers who want to stay relevant in a cloud
+              first world where businesses demand for agility and innovation and
+              prompt rise of cloud-native applications to bridges gaps between
+              data, insight, and action.
+            </p>
+          </div>
+        </div>
+        <div class="block__body flex-row">
+          <img
+            src="images/datascience-illustration.png"
+            alt="data science illustration"
+            class="block__image"
+          />
+          <div class="block__body__main">
+            <h2 class="block__heading text-to-left">Data Science</h2>
+            <p class="block__text text-to-left">
+              Data science is an essential part of many industries today, given
+              the massive amounts of data that are produced, and is one of the
+              most debated topics in IT circles. Its popularity has grown over
+              the years, and companies have started implementing data science
+              techniques to grow their business and increase customer
+              satisfaction. We together will learn what data science is, and how
+              you can become a data scientist.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="block" id="events">
+      <div class="section">
+        <header class="block__header banner yellow--banner">
+          <h1 class="block__heading ">Events & Workshops</h1>
+        </header>
+        <div class="block__body flex-row">
+          <div class="event__body__one">
+            <img
+              src="images/event--illustration.png"
+              alt="event illustration"
+              class="event__image"
+            />
+            <p class="text-set max-text-width">
+              Developer Student Club SZABIST-ISB is inspired by the Google
+              Developers' Family. The motive is to create a local ecosystem of
+              Developers in and around the Campus. And having fun doing it.
+              <br /><br />Come learn, share and connect with us in person.
+            </p>
+          </div>
+
+          <div class="block__event__container">
+            <div class="block__event flex-row">
+              <div class="event__container">
+                <p class="event__type accent__two__event">Seminars</p>
+                <p class="event__description">
+                  Get updated with the latest news and announcements.
+                </p>
+              </div>
+              <div class="event__container">
+                <p class="event__type primary__event">Study Jams</p>
+                <p class="event__description">
+                  Hands-on experience with the community members.
+                </p>
+              </div>
+            </div>
+            <div class="block__event flex-row">
+              <div class="event__container">
+                <p class="event__type secondary__event">Projects</p>
+                <p class="event__description">
+                  Projects with a social impact that help a lot of people.
+                </p>
+              </div>
+              <div class="event__container">
+                <p class="event__type accent__event">Hackathons</p>
+                <p class="event__description">
+                  Dream. Explore. Wonder. Build it Together.
+                </p>
+              </div>
+            </div>
+            <a
+              href="https://gdsc.community.dev/shaheed-zulfikar-ali-bhutto-institute-of-science-and-technology-szabist-islamabad-campus/"
+              class="button button--accent--two button--link block--btn"
+              target="_blank"
+              >View Events & Workshops</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="block" id="team">
+      <div class="section">
+        <header class="block__header banner green--banner">
+          <h1 class="block__heading">Meet The Team</h1>
+          <p class="text-set light--heading">
+            Passionate students driving the success of the program.
+          </p>
+        </header>
+        <div class="block__body">
+          <div class="profile__container">
+            <div class="profile__card">
+              <header class="profile__card__header"></header>
+              <div class="profile__card__body">
+                <div class="profile__image__container">
+                  <img
+                    src="images/rl_station.webp"
+                    alt="Zia's Profile Picture"
+                    class="profile__card__image"
+                  />
+                </div>
+                <h1 class="card__person-name card__person-name_long">
+                  Muhammad Zia Un Nabi Janjua
+                </h1>
+                <p class="person__position">GDSC Lead</p>
+                <div class="social__media">
+                  <div class="social__media__container">
+                    <a
+                      href="https://www.linkedin.com/in/rajazia442/"
+                      class="social__icon__two"
+                      target="_blank"
+                      ><img
+                        src="icons/linkedin.png"
+                        alt="linkedin icon"
+                        class="social__media__icon"
+                    /></a>
+                  </div>
+                  <div class="social__media__container">
+                    <a
+                      href="https://gdsc.community.dev/u/mwbchb/"
+                      class="social__icon__two"
+                      target="_blank"
+                      ><img
+                        src="icons/google.png"
+                        alt="google icon"
+                        class="social__media__icon"
+                    /></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="profile__container">
+            <div class="profile__card">
+              <header class="profile__card__header secondary"></header>
+              <div class="profile__card__body">
+                <div class="profile__image__container">
+                  <img
+                    src="images/mubeen_mahmood.webp"
+                    alt="Mubeen Mahmood's Profile Picture"
+                    class="profile__card__image"
+                  />
+                </div>
+                <h1 class="card__person-name card__person-name_long">
+                  Mubeen Mahmood
+                </h1>
+                <p class="person__position">Co-Lead</p>
+                <div class="social__media">
+                  <div class="social__media__container">
+                    <a
+                      href="https://www.linkedin.com/in/mubeen-mahmood-4b332124a/"
+                      class="social__icon__two"
+                      target="_blank"
+                      ><img
+                        src="icons/linkedin.png"
+                        alt="linkedin icon"
+                        class="social__media__icon"
+                    /></a>
+                  </div>
+                  <div class="social__media__container">
+                    <a
+                      href="https://gdsc.community.dev/u/m4ftac/"
+                      class="social__icon__two"
+                      target="_blank"
+                      ><img
+                        src="icons/google.png"
+                        alt="google icon"
+                        class="social__media__icon"
+                    /></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="profile__container">
+            <div class="profile__card">
+              <header class="profile__card__header accent"></header>
+              <div class="profile__card__body">
+                <div class="profile__image__container">
+                  <img
+                    src="images/ateeqRana7.png"
+                    alt="Ateeq Rana's Profile Picture"
+                    class="profile__card__image"
+                  />
+                </div>
+                <h1 class="card__person-name">Ateeq Rana</h1>
+                <p class="person__position">Web Dev Lead</p>
+                <div class="social__media">
+                  <div class="social__media__container">
+                    <a
+                      href="https://www.linkedin.com/in/ateeq-rana-1b03b8201/"
+                      class="social__icon__two"
+                      target="_blank"
+                      ><img
+                        src="icons/linkedin.png"
+                        alt="linkedin icon"
+                        class="social__media__icon"
+                    /></a>
+                  </div>
+                  <div class="social__media__container">
+                    <a
+                      href="https://gdsc.community.dev/u/mrancj/#/about"
+                      class="social__icon__two"
+                      target="_blank"
+                      ><img
+                        src="icons/google.png"
+                        alt="google icon"
+                        class="social__media__icon"
+                    /></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="profile__container">
+            <div class="profile__card">
+              <header class="profile__card__header accent--two"></header>
+              <div class="profile__card__body">
+                <div class="profile__image__container">
+                  <img
+                    src="images/fatima_pasha_mughal_1.jpg"
+                    alt="Fatima's Profile Picture"
+                    class="profile__card__image"
+                  />
+                </div>
+                <h1 class="card__person-name card__person-name_long">
+                  Fatima Pasha Mughal
+                </h1>
+                <p class="person__position">Event Manager Lead</p>
+                <div class="social__media">
+                  <div class="social__media__container">
+                    <a
+                      href="https://www.linkedin.com/in/fatima-pasha-mughal-085288201/"
+                      class="social__icon__two"
+                      target="_blank"
+                      ><img
+                        src="icons/linkedin.png"
+                        alt="linkedin icon"
+                        class="social__media__icon"
+                    /></a>
+                  </div>
+                  <div class="social__media__container">
+                    <a
+                      href="https://gdsc.community.dev/u/mc9aek/"
+                      class="social__icon__two"
+                      target="_blank"
+                      ><img
+                        src="icons/google.png"
+                        alt="google icon"
+                        class="social__media__icon"
+                    /></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="profile__container">
+            <div class="profile__card">
+              <header class="profile__card__header secondary"></header>
+              <div class="profile__card__body">
+                <div class="profile__image__container">
+                  <img
+                    src="images/mubeen_sikandar_DtLiHwz.webp"
+                    alt="Mubeen Sikander's Profile Picture"
+                    class="profile__card__image"
+                  />
+                </div>
+                <h1 class="card__person-name card__person-name_long">
+                  Mubeen Sikandar
+                </h1>
+                <p class="person__position">Technical Lead</p>
+                <div class="social__media">
+                  <div class="social__media__container">
+                    <a
+                      href="https://www.linkedin.com/in/muhammad-mubeen-sikandar-647170216/"
+                      class="social__icon__two"
+                      target="_blank"
+                      ><img
+                        src="icons/linkedin.png"
+                        alt="linkedin icon"
+                        class="social__media__icon"
+                    /></a>
+                  </div>
+                  <div class="social__media__container">
+                    <a
+                      href="https://gdsc.community.dev/u/mwgbxq/"
+                      class="social__icon__two"
+                      target="_blank"
+                      ><img
+                        src="icons/google.png"
+                        alt="google icon"
+                        class="social__media__icon"
+                    /></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="profile__container">
+            <div class="profile__card">
+              <header class="profile__card__header accent"></header>
+              <div class="profile__card__body">
+                <div class="profile__image__container">
+                  <img
+                    src="images/haram_riaz_1.jpg"
+                    alt="Haram's Profile Picture"
+                    class="profile__card__image"
+                  />
+                </div>
+                <h1 class="card__person-name">Haram Riaz</h1>
+                <p class="person__position">Media & Outreach Lead</p>
+                <div class="social__media">
+                  <div class="social__media__container">
+                    <a href="" class="social__icon__two" target="_blank"
+                      ><img
+                        src="icons/linkedin.png"
+                        alt="linkedin icon"
+                        class="social__media__icon"
+                    /></a>
+                  </div>
+                  <div class="social__media__container">
+                    <a
+                      href="https://gdsc.community.dev/u/mveujv/"
+                      class="social__icon__two"
+                      target="_blank"
+                      ><img
+                        src="icons/google.png"
+                        alt="google icon"
+                        class="social__media__icon"
+                    /></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="profile__container">
+            <div class="profile__card">
+              <header class="profile__card__header accent--two"></header>
+              <div class="profile__card__body">
+                <div class="profile__image__container">
+                  <img
+                    src="images/mohammad_zaryab_khan_1.jpg"
+                    alt="Zaryab's Profile Picture"
+                    class="profile__card__image"
+                  />
+                </div>
+                <h1 class="card__person-name card__person-name_long">
+                  Mohammad Zaryab Khan
+                </h1>
+                <p class="person__position">Cyber Security Lead</p>
+                <div class="social__media">
+                  <div class="social__media__container">
+                    <a href="" class="social__icon__two" target="_blank"
+                      ><img
+                        src="icons/linkedin.png"
+                        alt="linkedin icon"
+                        class="social__media__icon"
+                    /></a>
+                  </div>
+                  <div class="social__media__container">
+                    <a
+                      href="https://gdsc.community.dev/u/mcqyr2/"
+                      class="social__icon__two"
+                      target="_blank"
+                      ><img
+                        src="icons/google.png"
+                        alt="google icon"
+                        class="social__media__icon"
+                    /></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="profile__container">
+            <div class="profile__card">
+              <header class="profile__card__header"></header>
+              <div class="profile__card__body">
+                <div class="profile__image__container">
+                  <img
+                    src="images/muhammad_asad_ishaq.webp"
+                    alt="Asad's Profile Picture"
+                    class="profile__card__image"
+                  />
+                </div>
+                <h1 class="card__person-name card__person-name_long">
+                  Muhammad Asad Ishaq
+                </h1>
+                <p class="person__position">App Dev Lead</p>
+                <div class="social__media">
+                  <div class="social__media__container">
+                    <a
+                      href="https://www.linkedin.com/in/muhammad-asad-ishaq/"
+                      class="social__icon__two"
+                      target="_blank"
+                      ><img
+                        src="icons/linkedin.png"
+                        alt="linkedin icon"
+                        class="social__media__icon"
+                    /></a>
+                  </div>
+                  <div class="social__media__container">
+                    <a
+                      href="https://gdsc.community.dev/u/mpraeg/"
+                      class="social__icon__two"
+                      target="_blank"
+                      ><img
+                        src="icons/google.png"
+                        alt="google icon"
+                        class="social__media__icon"
+                    /></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="profile__container">
+            <div class="profile__card">
+              <header class="profile__card__header secondary"></header>
+              <div class="profile__card__body">
+                <div class="profile__image__container">
+                  <img
+                    src="images/hameed_khan_3fAV05L.webp"
+                    alt="Hameed's Profile Picture"
+                    class="profile__card__image"
+                  />
+                </div>
+                <h1 class="card__person-name card__person-name_long">
+                  Abdul Hameed Khan
+                </h1>
+                <p class="person__position">Design Lead</p>
+                <div class="social__media">
+                  <div class="social__media__container">
+                    <a
+                      href="https://www.linkedin.com/in/abdul-hameed-khan-/"
+                      class="social__icon__two"
+                      target="_blank"
+                      ><img
+                        src="icons/linkedin.png"
+                        alt="linkedin icon"
+                        class="social__media__icon"
+                    /></a>
+                  </div>
+                  <div class="social__media__container">
+                    <a
+                      href="https://gdsc.community.dev/u/m5hpzx/"
+                      class="social__icon__two"
+                      target="_blank"
+                      ><img
+                        src="icons/google.png"
+                        alt="google icon"
+                        class="social__media__icon"
+                    /></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="profile__container">
+            <div class="profile__card">
+              <header class="profile__card__header secondary"></header>
+              <div class="profile__card__body">
+                <div class="profile__image__container">
+                  <img
+                    src="images/muhammad_talha.jpeg"
+                    alt="Mehar Talah's Profile Picture"
+                    class="profile__card__image"
+                  />
+                </div>
+                <h1 class="card__person-name card__person-name_long">
+                  Muhammad Mehar Talha
+                </h1>
+                <p class="person__position">Full Stack Lead</p>
+                <div class="social__media">
+                  <div class="social__media__container">
+                    <a
+                      href="https://www.linkedin.com/in/mehar-talha-578113139/"
+                      class="social__icon__two"
+                      target="_blank"
+                      ><img
+                        src="icons/linkedin.png"
+                        alt="linkedin icon"
+                        class="social__media__icon"
+                    /></a>
+                  </div>
+                  <div class="social__media__container">
+                    <a href="" class="social__icon__two" target="_blank"
+                      ><img
+                        src="icons/google.png"
+                        alt="google icon"
+                        class="social__media__icon"
+                    /></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="profile__container">
+            <div class="profile__card">
+              <header class="profile__card__header"></header>
+              <div class="profile__card__body">
+                <div class="profile__image__container">
+                  <img
+                    src="images/mohammad_ahmed_1.jpg"
+                    alt="Ahmed Khan's Profile Picture"
+                    class="profile__card__image"
+                  />
+                </div>
+                <h1 class="card__person-name card__person-name_long">
+                  Mohammad Ahmed Khan
+                </h1>
+                <p class="person__position">Marketing Lead</p>
+                <div class="social__media">
+                  <div class="social__media__container">
+                    <a
+                      href="https://www.linkedin.com/in/mohammad-ahmed-khan-155989101/"
+                      class="social__icon__two"
+                      target="_blank"
+                      ><img
+                        src="icons/linkedin.png"
+                        alt="linkedin icon"
+                        class="social__media__icon"
+                    /></a>
+                  </div>
+                  <div class="social__media__container">
+                    <a href="" class="social__icon__two" target="_blank"
+                      ><img
+                        src="icons/google.png"
+                        alt="google icon"
+                        class="social__media__icon"
+                    /></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="block" id="community">
+      <div class="section">
+        <header class="block__header banner primary--banner">
+          <h1 class="block__heading light--heading">Join Your Peers</h1>
+          <p class="text-set">
+            Connect with fellow community members by joining us through the
+            links mentiond below.
+          </p>
+        </header>
+        <div class="block__body flex-row">
+          <img
+            src="images/diversity-removebg.png"
+            alt="diversity illustration"
+            class="block__image extra-right-margin"
+          />
+          <div class="block__event__container btn-block">
+            <a
+              href="https://chat.whatsapp.com/CvLu4rlFptyBsVKsRO0ay3"
+              class="button button--secondary button--link block--btn"
+              target="_blank"
+              > <img src="icons/whatsapp.png" alt="Whatsapp Icon" class="social__media__icon social__media__icon__light"> Join us on Whatsapp!</a
+            >
+            <a
+              href="https://www.instagram.com/gdscszabist_isb/"
+              class="button button--primary button--link block--btn"
+              target="_blank"
+              > <img src="icons/instagram.png" alt="Instagram Icon" class="social__media__icon social__media__icon__light"> Join us on Instagram!</a
+            >
+            <a
+              href="https://www.linkedin.com/company/gdsc-szabist-islamabad/"
+              class="button button--secondary button--link block--btn"
+              target="_blank"
+              > <img src="icons/linkedin.png" alt="LinkedIn Icon" class="social__media__icon social__media__icon__light"> Join us on LinkedIn!</a
+            >
+            <a
+              href="https://www.facebook.com/gdsc.szabist.isb"
+              class="button button--primary button--link block--btn"
+              target="_blank"
+              > <img src="icons/facebook.png" alt="Facebook Icon" class="social__media__icon social__media__icon__light"> Join us on Facebook!</a
+            >
+            
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="block footer">
+      <div class="footer--flex">
+        <div class="footer__img__social">
+          <img
+            src="images/gdsc-logo.svg"
+            alt="gdsc logo"
+            class="footer__brand"
+          />
+          <div class="social__media__container">
+            <a
+              href="https://www.linkedin.com/company/gdsc-szabist-islamabad/"
+              class="footer__icon"
+              target="_blank"
+              ><img
+                src="icons/linkedin.png"
+                alt="LinkedIn Icon"
+                class="social__media__icon"
+            /></a>
+            <a
+              href="https://gdsc.community.dev/shaheed-zulfikar-ali-bhutto-institute-of-science-and-technology-szabist-islamabad-campus/"
+              class="footer__icon"
+              target="_blank"
+              ><img
+                src="icons/google.png"
+                alt="Google Icon"
+                class="social__media__icon"
+            /></a>
+            <a
+              href="https://www.instagram.com/gdscszabist_isb/"
+              class="footer__icon"
+              target="_blank"
+              ><img
+                src="icons/instagram.png"
+                alt="Instagram Icon"
+                class="social__media__icon"
+            /></a>
+            <a
+              href="https://www.facebook.com/gdsc.szabist.isb"
+              class="footer__icon"
+              target="_blank"
+              ><img
+                src="icons/facebook.png"
+                alt="Facebook Icon"
+                class="social__media__icon"
+            /></a>
+            <a
+              href="mailto:gdscszabist.isb@gmail.com"
+              class="footer__icon"
+              target="_blank"
+              ><img
+                src="icons/email.png"
+                alt="Mail Icon"
+                class="social__media__icon"
+            /></a>
+          </div>
+        </div>
+        <div class="footer--section">
+          <ul class="list">
+            <li class="list--element list--heading">Programs</li>
+            <li class="list--element">
+              <a href="https://gdg.community.dev/" target="_blank"
+                >Google Developer Groups</a
+              >
+            </li>
+            <li class="list--element">
+              <a href="https://gdsc.community.dev/" target="_blank"
+                >Google Developer Student Clubs</a
+              >
+            </li>
+            <li class="list--element">
+              <a
+                href="https://developers.google.com/community/experts"
+                target="_blank"
+                >Google Developer Experts</a
+              >
+            </li>
+            <li class="list--element">
+              <a
+                href="https://developers.google.com/womentechmakers"
+                target="_blank"
+                >Women Techmakers</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="footer--section">
+          <ul class="list">
+            <li class="list--element list--heading">Developer Consoles</li>
+            <li class="list--element">
+              <a href="https://console.cloud.google.com/" target="_blank"
+                >Google Cloud Platform</a
+              >
+            </li>
+            <li class="list--element">
+              <a href="https://console.firebase.google.com/" target="_blank"
+                >Firebase</a
+              >
+            </li>
+            <li class="list--element">
+              <a href="https://console.developers.google.com/" target="_blank"
+                >Google API</a
+              >
+            </li>
+            <li class="list--element">
+              <a href="https://developers.google.com/products" target="_blank"
+                >All Products</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="footer--section"></div>
+      </div>
+      <div class="credits">
+        <p>Copyright © 2022 GDSC SZABIST-ISB. All Rights Reserved.</p>
+      </div>
+    </footer>
+    <script src="js/main.js"></script>
+  </body>
+</html>
