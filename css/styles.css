@@ -378,6 +378,10 @@ a {
   padding-top: 60px;
 }
 
+.nav--btn {
+  padding: 2rem 2rem;
+}
+
 @media screen and (min-width: 768px) {
   .nav {
     justify-content: space-between;
@@ -949,6 +953,7 @@ body.dark {
   border-radius: 50px;
   align-items: center;
   justify-content: space-between;
+  margin-left: 1rem;
   padding: 5px;
   position: relative;
   transform: scale(1.5);
