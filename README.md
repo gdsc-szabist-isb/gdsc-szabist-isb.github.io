@@ -1,4 +1,4 @@
-# gdsc-szabist-isb.github.io
+# Google Developer Student Club - SZABIST Islamabad Website
 A responsive website for Google Developer Student Club - SZABIST Islamabad.
 
 Developed in HTML-CSS-JavaScript.
