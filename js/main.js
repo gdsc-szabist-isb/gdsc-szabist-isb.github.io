@@ -62,7 +62,6 @@ checkbox.addEventListener("change", () => {
   });
   document.querySelector(".footer").classList.toggle("footer-dark");
   document.querySelector(".nav__brand").classList.toggle("img-white");
-  document.querySelector(".hero__logo").classList.toggle("img-white");
   document.querySelector(".footer__brand").classList.toggle("img-white");
   footerIcons.forEach((icon) => {
     icon.classList.toggle("img-white");
