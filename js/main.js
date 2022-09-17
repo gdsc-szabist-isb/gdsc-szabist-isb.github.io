@@ -61,7 +61,9 @@ checkbox.addEventListener("change", () => {
     ed.classList.toggle("text-light");
   });
   document.querySelector(".footer").classList.toggle("footer-dark");
+  
   document.querySelector(".nav__brand").classList.toggle("img-white");
+  
   document.querySelector(".footer__brand").classList.toggle("img-white");
   footerIcons.forEach((icon) => {
     icon.classList.toggle("img-white");
