@@ -99,6 +99,5 @@ checkbox.addEventListener("change", () => {
   btnAccentTwoAll.forEach((btn) => {
     btn.classList.toggle("button--accent--two-dark");
   });
-  document.querySelector(".uni-logo").classList.toggle("img-white");
   document.querySelector(".nav__toggler").classList.toggle("img-white");
 });
