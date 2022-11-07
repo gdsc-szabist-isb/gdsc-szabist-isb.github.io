@@ -529,14 +529,14 @@ a {
 /* Images */
 
 .small__image {
-  width: 70px;
-  height: 70px;
+  width: 90px;
+  height: 90px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
   .small__image {
-    width: 70px;
-    height: 70px;
+    width: 120px;
+    height: 120px;
   }
 }
 
