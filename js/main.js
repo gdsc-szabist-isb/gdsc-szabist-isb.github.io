@@ -26,7 +26,7 @@ function myFunction() {
 /*Theme Toggle*/
 const checkbox = document.getElementById("checkbox");
 const navItems = document.querySelectorAll(".nav__item");
-const heroTagline = document.querySelector(".hero__tagline");
+const heroTagline = document.querySelectorAll(".hero__tagline");
 const blockTexts = document.querySelectorAll(".block__text");
 const blockHeadings = document.querySelectorAll(".block__heading");
 const textSet = document.querySelector(".event__body__one");
@@ -48,7 +48,9 @@ checkbox.addEventListener("change", () => {
   navItems.forEach((navItem) => {
     navItem.classList.toggle("text-light");
   });
-  heroTagline.classList.toggle("text-light");
+   heroTagline.forEach((navItem) => {
+    navItem.classList.toggle("text-light");
+  });
   document.querySelector(".nav").classList.toggle("sticky-light");
   blockTexts.forEach((blockText) => {
     blockText.classList.toggle("text-light");
