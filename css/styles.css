@@ -62,12 +62,6 @@ p {
 .text--accent-two {
   color: var(--color-accent-two);
 }
-.hero__title {
-  text-align: center;
-  color: var(--color-body);
-  font-size: 3rem;
-  font-weight: 700;
-}
 
 .text-set {
   text-align: center;
@@ -544,6 +538,13 @@ a {
     width: 120px;
     height: 120px;
   }
+}
+
+.hero__title {
+  text-align: center;
+  color: var(--color-body);
+  font-size: 3rem;
+  font-weight: 700;
 }
 
 /*Collapsibles*/
