@@ -62,6 +62,12 @@ p {
 .text--accent-two {
   color: var(--color-accent-two);
 }
+.hero__title {
+  text-align: center;
+  color: var(--color-body);
+  font-size: 3rem;
+  font-weight: 700;
+}
 
 .text-set {
   text-align: center;
@@ -495,7 +501,7 @@ a {
 }
 
 .hero__image {
-  width: 90%;
+  width: 70%;
   margin: 2rem 0;
   max-width: 450px;
 }
@@ -505,7 +511,7 @@ a {
     padding-top: 0;
   }
   .hero__image {
-    width: 100%;
+    width: 50%;
   }
   .hero__logo {
     width: 80%;
@@ -513,7 +519,7 @@ a {
 }
 @media screen and (min-width: 1024px) {
   .hero__logo {
-    width: 50%;
+    width: 30%;
   }
   .hero__image {
     margin-right: 6rem;
